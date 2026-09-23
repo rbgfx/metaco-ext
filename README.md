@@ -1,14 +1,19 @@
-# metaco-ext
+<h1 align="center">metaco-ext</h1>
 
-> Ruby adapters for metaco textures, pixels, events, and resize data.
+<p align="center">Small Ruby adapters for metaco textures, pixels, events, and resize data.</p>
 
-[![Gem version](https://badge.fury.io/rb/metaco-ext.svg)](https://rubygems.org/gems/metaco-ext) [![Downloads](https://img.shields.io/gem/dt/metaco-ext?label=downloads)](https://rubygems.org/gems/metaco-ext) [![Ruby](https://img.shields.io/badge/ruby-%3E%3D3.1-CC342D?logo=ruby&logoColor=white)](https://www.ruby-lang.org/) [![CI](https://github.com/rbgfx/metaco-ext/actions/workflows/main.yml/badge.svg)](https://github.com/rbgfx/metaco-ext/actions/workflows/main.yml) [![License](https://img.shields.io/badge/license-MIT-750014.svg)](LICENSE.txt)
+<p align="center">
+  <a href="https://rubygems.org/gems/metaco-ext"><img src="https://badge.fury.io/rb/metaco-ext.svg" alt="Gem Version"></a>
+  <a href="https://rubygems.org/gems/metaco-ext"><img src="https://img.shields.io/gem/dt/metaco-ext?label=downloads" alt="Downloads"></a>
+  <a href="https://www.ruby-lang.org/"><img src="https://img.shields.io/badge/ruby-%3E%3D3.1-CC342D?logo=ruby&amp;logoColor=white" alt="Ruby Version"></a>
+  <a href="LICENSE.txt"><img src="https://img.shields.io/badge/license-MIT-750014.svg" alt="License"></a>
+</p>
 
-**[Features](#features) · [Installation](#installation) · [Requirements](#requirements) · [Quick start](#quick-start) · [Development](#development) · [License](#license) · [Website](https://rbgfx.github.io/metaco-ext/)**
+[Features](#features) · [Installation](#installation) · [Quick Start](#quick-start)
 
----
+***
 
-metaco-ext adds Ruby-side helpers around the native metaco API. Resource calls delegate to metaco; event helpers provide normalized data.
+metaco-ext adds Ruby-side helpers around the native [metaco](https://github.com/rbgfx/metaco) API. Resource methods delegate to metaco, while event helpers provide a stable, normalized shape for graphics applications.
 
 ## Features
 
@@ -44,12 +49,12 @@ On macOS, install both gems for native resource methods:
 gem install metaco metaco-ext
 ~~~
 
-## Requirements
+### Requirements
 
 - Ruby 3.1 or newer.
 - Native resource methods require a compatible metaco installation and are available on macOS only. Calls without metaco raise <code>LoadError</code>.
 
-## Quick start
+## Quick Start
 
 ~~~ruby
 require "metaco/ext"
@@ -77,6 +82,10 @@ Metaco::Ext.bind_compute_texture(handle, 0, texture)
 bundle install
 bundle exec rake verify
 ~~~
+
+## Contributing
+
+Bug reports and pull requests are welcome at [rbgfx/metaco-ext](https://github.com/rbgfx/metaco-ext).
 
 ## License
 
