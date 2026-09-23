@@ -2,7 +2,7 @@
 
 [![Gem version](https://badge.fury.io/rb/metaco-ext.svg)](https://rubygems.org/gems/metaco-ext)
 [![Downloads](https://img.shields.io/gem/dt/metaco-ext?label=downloads)](https://rubygems.org/gems/metaco-ext)
-[![CI](https://github.com/rbgfx/metaco-ext/actions/workflows/ci.yml/badge.svg)](https://github.com/rbgfx/metaco-ext/actions/workflows/ci.yml)
+[![CI](https://github.com/rbgfx/metaco-ext/actions/workflows/main.yml/badge.svg)](https://github.com/rbgfx/metaco-ext/actions/workflows/main.yml)
 [![Ruby](https://img.shields.io/badge/ruby-%3E%3D3.1-CC342D?logo=ruby&logoColor=white)](https://www.ruby-lang.org/)
 [![License](https://img.shields.io/badge/license-MIT-750014.svg)](LICENSE.txt)
 
