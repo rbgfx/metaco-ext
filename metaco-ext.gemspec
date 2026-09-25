@@ -5,7 +5,7 @@ require_relative "lib/metaco/ext/version"
 Gem::Specification.new do |spec|
   spec.name = "metaco-ext"
   spec.version = Metaco::Ext::VERSION
-  spec.authors = ["ydah"]
+  spec.authors = ["Yudai Takada"]
   spec.email = ["t.yudai92@gmail.com"]
 
   spec.summary = "Ruby helpers for metaco resources and events"
